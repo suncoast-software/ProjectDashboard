@@ -11,6 +11,9 @@
         Background="{x:Null}"
         Title="MainWindow" Height="450" Width="800">
     <Border CornerRadius="20" Background="White">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="8" ShadowDepth="6" Direction="270" Color="#000" Opacity=".6"/>
+        </Border.Effect>
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20"/>
