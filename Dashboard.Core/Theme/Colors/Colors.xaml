@@ -6,4 +6,11 @@
     <Color x:Key="Secondary">#3c3c3c</Color>
     <Color x:Key="Accent">#3cfc02</Color>
     
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="PrimaryColorBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="SecondaryColorBrush" Color="{StaticResource Secondary}"/>
+    <SolidColorBrush x:Key="AccentColorBrush" Color="{StaticResource Accent}"/>
+
+    <!-- Gradients -->
+    
 </ResourceDictionary>
