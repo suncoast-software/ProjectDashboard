@@ -4,29 +4,29 @@
     <!-- Colors -->
     <!-- Primary -->
     <Color x:Key="Primary">#1c1c1c</Color>
-    <Color x:Key="Primary-200">#2c2c2c</Color>
-    <Color x:Key="Primary-300">#3c3c3c</Color>
-    <Color x:Key="Primary-400">#4c4c4c</Color>
-    <Color x:Key="Primary-500">#5c5c5c</Color>
+    <Color x:Key="Primary200">#2c2c2c</Color>
+    <Color x:Key="Primary300">#3c3c3c</Color>
+    <Color x:Key="Primary400">#4c4c4c</Color>
+    <Color x:Key="Primary500">#5c5c5c</Color>
     <!-- End Primary -->
     <!-- Secondary -->
     <Color x:Key="Secondary">#1e1e1e</Color>
-    <Color x:Key="Secondary-200">#2e2e2e</Color>
-    <Color x:Key="Secondary-300">#3e3e3e</Color>
-    <Color x:Key="Secondary-400">#4e4e4e</Color>
-    <Color x:Key="Secondary-500">#5e5e5e</Color>
+    <Color x:Key="Secondary200">#2e2e2e</Color>
+    <Color x:Key="Secondary300">#3e3e3e</Color>
+    <Color x:Key="Secondary400">#4e4e4e</Color>
+    <Color x:Key="Secondary500">#5e5e5e</Color>
     <!-- End Secondary -->
     <!-- Accent -->
     <Color x:Key="Accent">#3cfc02</Color>
-    <Color x:Key="Accent-200">#35e500</Color>
-    <Color x:Key="Accent-300">#2fc700</Color>
-    <Color x:Key="Accent-400">#29b200</Color>
-    <Color x:Key="Accent-500">#229300</Color>
+    <Color x:Key="Accent200">#35e500</Color>
+    <Color x:Key="Accent300">#2fc700</Color>
+    <Color x:Key="Accent400">#29b200</Color>
+    <Color x:Key="Accent500">#229300</Color>
     <!-- End Secondary -->
     <!-- Defaults -->
-    <Color x:Key="Dark-Blue-Grey">#5C6784</Color> 
-    <Color x:Key="Dark-Grey">#464655</Color>
-    <Color x:Key="Light-Grey">#B3B5BB</Color>
+    <Color x:Key="DarkBlueGrey">#5C6784</Color> 
+    <Color x:Key="DarkGrey">#464655</Color>
+    <Color x:Key="LightGrey">#B3B5BB</Color>
     <Color x:Key="BitterSweet">#F97068</Color>
     <!-- End Defaults -->
     <!-- End Colors -->
@@ -34,31 +34,43 @@
     <!-- Brushes -->
     <!-- Primary Brushes -->
     <SolidColorBrush x:Key="PrimaryColorBrush" Color="{StaticResource Primary}"/>
-    <SolidColorBrush x:Key="Primary-200ColorBrush" Color="{StaticResource Primary-200}"/>
-    <SolidColorBrush x:Key="Primary-300ColorBrush" Color="{StaticResource Primary-300}"/>
-    <SolidColorBrush x:Key="Primary-400ColorBrush" Color="{StaticResource Primary-400}"/>
-    <SolidColorBrush x:Key="Primary-500ColorBrush" Color="{StaticResource Primary-500}"/>
+    <SolidColorBrush x:Key="Primary-200ColorBrush" Color="{StaticResource Primary200}"/>
+    <SolidColorBrush x:Key="Primary-300ColorBrush" Color="{StaticResource Primary300}"/>
+    <SolidColorBrush x:Key="Primary-400ColorBrush" Color="{StaticResource Primary400}"/>
+    <SolidColorBrush x:Key="Primary-500ColorBrush" Color="{StaticResource Primary500}"/>
     <!-- End Primary Brushes -->
     <!-- Secondary Brushes -->
     <SolidColorBrush x:Key="SecondaryColorBrush" Color="{StaticResource Secondary}"/>
-    <SolidColorBrush x:Key="Secondary-200ColorBrush" Color="{StaticResource Secondary-200}"/>
-    <SolidColorBrush x:Key="Secondary-300ColorBrush" Color="{StaticResource Secondary-300}"/>
-    <SolidColorBrush x:Key="Secondary-400ColorBrush" Color="{StaticResource Secondary-400}"/>
-    <SolidColorBrush x:Key="Secondary-500ColorBrush" Color="{StaticResource Secondary-500}"/>
+    <SolidColorBrush x:Key="Secondary-200ColorBrush" Color="{StaticResource Secondary200}"/>
+    <SolidColorBrush x:Key="Secondary-300ColorBrush" Color="{StaticResource Secondary300}"/>
+    <SolidColorBrush x:Key="Secondary-400ColorBrush" Color="{StaticResource Secondary400}"/>
+    <SolidColorBrush x:Key="Secondary-500ColorBrush" Color="{StaticResource Secondary500}"/>
     <!-- End Secondary Brushes -->
     <!-- Accent Brushes -->
     <SolidColorBrush x:Key="AccentColorBrush" Color="{StaticResource Accent}"/>
-    <SolidColorBrush x:Key="Accent-200ColorBrush" Color="{StaticResource Accent-200}"/>
-    <SolidColorBrush x:Key="Accent-300ColorBrush" Color="{StaticResource Accent-300}"/>
-    <SolidColorBrush x:Key="Accent-400ColorBrush" Color="{StaticResource Accent-400}"/>
-    <SolidColorBrush x:Key="Accent-500ColorBrush" Color="{StaticResource Accent-500}"/>
+    <SolidColorBrush x:Key="Accent-200ColorBrush" Color="{StaticResource Accent200}"/>
+    <SolidColorBrush x:Key="Accent-300ColorBrush" Color="{StaticResource Accent300}"/>
+    <SolidColorBrush x:Key="Accent-400ColorBrush" Color="{StaticResource Accent400}"/>
+    <SolidColorBrush x:Key="Accent-500ColorBrush" Color="{StaticResource Accent500}"/>
     <!-- End Accent Brushes -->
     <!-- Default Brushes -->
-    <SolidColorBrush x:Key="Dark-Blue-Grey-Brush" Color="{StaticResource Dark-Blue-Grey}"/>
-    <SolidColorBrush x:Key="Dark-Grey-Brush" Color="{StaticResource Dark-Grey}"/>
-    <SolidColorBrush x:Key="Light-Grey-Brush" Color="{StaticResource Light-Grey}"/>
-    <SolidColorBrush x:Key="BitterSweet-Brush" Color="{StaticResource BitterSweet}"/>
+    <SolidColorBrush x:Key="DarkBlueGreyBrush" Color="{StaticResource DarkBlueGrey}"/>
+    <SolidColorBrush x:Key="DarkGreyBrush" Color="{StaticResource DarkGrey}"/>
+    <SolidColorBrush x:Key="LightGreyBrush" Color="{StaticResource LightGrey}"/>
+    <SolidColorBrush x:Key="BitterSweetBrush" Color="{StaticResource BitterSweet}"/>
 
     <!-- Gradients -->
+    <!-- Primary Gradient -->
+    <LinearGradientBrush x:Key="PrimaryToSecondaryGradientBrush" StartPoint="0, 0.5" EndPoint="0.5, 1">
+        <GradientStop Color="{StaticResource Primary}" Offset="0.0"/>
+        <GradientStop Color="{StaticResource Secondary}" Offset="1.0"/>
+    </LinearGradientBrush>
+    <!-- End Primary Gradient -->
+    <!-- Secondary Gradient -->
+    <LinearGradientBrush x:Key="SecondaryToPrimaryGradientBrush" StartPoint="0, 0.5" EndPoint="0.5, 1">
+        <GradientStop Color="{StaticResource Secondary}" Offset="0.0"/>
+        <GradientStop Color="{StaticResource Primary}" Offset="1.0"/>
+    </LinearGradientBrush>
+    <!-- End Secondary Gradient -->
     
 </ResourceDictionary>
