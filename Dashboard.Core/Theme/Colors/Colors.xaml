@@ -34,24 +34,24 @@
     <!-- Brushes -->
     <!-- Primary Brushes -->
     <SolidColorBrush x:Key="PrimaryColorBrush" Color="{StaticResource Primary}"/>
-    <SolidColorBrush x:Key="Primary-200ColorBrush" Color="{StaticResource Primary200}"/>
-    <SolidColorBrush x:Key="Primary-300ColorBrush" Color="{StaticResource Primary300}"/>
-    <SolidColorBrush x:Key="Primary-400ColorBrush" Color="{StaticResource Primary400}"/>
-    <SolidColorBrush x:Key="Primary-500ColorBrush" Color="{StaticResource Primary500}"/>
+    <SolidColorBrush x:Key="Primary200ColorBrush" Color="{StaticResource Primary200}"/>
+    <SolidColorBrush x:Key="Primary300ColorBrush" Color="{StaticResource Primary300}"/>
+    <SolidColorBrush x:Key="Primary400ColorBrush" Color="{StaticResource Primary400}"/>
+    <SolidColorBrush x:Key="Primary500ColorBrush" Color="{StaticResource Primary500}"/>
     <!-- End Primary Brushes -->
     <!-- Secondary Brushes -->
     <SolidColorBrush x:Key="SecondaryColorBrush" Color="{StaticResource Secondary}"/>
-    <SolidColorBrush x:Key="Secondary-200ColorBrush" Color="{StaticResource Secondary200}"/>
-    <SolidColorBrush x:Key="Secondary-300ColorBrush" Color="{StaticResource Secondary300}"/>
-    <SolidColorBrush x:Key="Secondary-400ColorBrush" Color="{StaticResource Secondary400}"/>
-    <SolidColorBrush x:Key="Secondary-500ColorBrush" Color="{StaticResource Secondary500}"/>
+    <SolidColorBrush x:Key="Secondary200ColorBrush" Color="{StaticResource Secondary200}"/>
+    <SolidColorBrush x:Key="Secondary300ColorBrush" Color="{StaticResource Secondary300}"/>
+    <SolidColorBrush x:Key="Secondary400ColorBrush" Color="{StaticResource Secondary400}"/>
+    <SolidColorBrush x:Key="Secondary500ColorBrush" Color="{StaticResource Secondary500}"/>
     <!-- End Secondary Brushes -->
     <!-- Accent Brushes -->
     <SolidColorBrush x:Key="AccentColorBrush" Color="{StaticResource Accent}"/>
-    <SolidColorBrush x:Key="Accent-200ColorBrush" Color="{StaticResource Accent200}"/>
-    <SolidColorBrush x:Key="Accent-300ColorBrush" Color="{StaticResource Accent300}"/>
-    <SolidColorBrush x:Key="Accent-400ColorBrush" Color="{StaticResource Accent400}"/>
-    <SolidColorBrush x:Key="Accent-500ColorBrush" Color="{StaticResource Accent500}"/>
+    <SolidColorBrush x:Key="Accent200ColorBrush" Color="{StaticResource Accent200}"/>
+    <SolidColorBrush x:Key="Accent300ColorBrush" Color="{StaticResource Accent300}"/>
+    <SolidColorBrush x:Key="Accent400ColorBrush" Color="{StaticResource Accent400}"/>
+    <SolidColorBrush x:Key="Accent500ColorBrush" Color="{StaticResource Accent500}"/>
     <!-- End Accent Brushes -->
     <!-- Default Brushes -->
     <SolidColorBrush x:Key="DarkBlueGreyBrush" Color="{StaticResource DarkBlueGrey}"/>

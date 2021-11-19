@@ -11,8 +11,8 @@
     <Grid>
         <Border Height="190"  Width="190"
                    CornerRadius="12"
-                   Background="{StaticResource PrimaryColorBrush}"
-                   BorderBrush="{StaticResource Accent-200ColorBrush}"
+                   Background="{StaticResource SecondaryToPrimaryGradientBrush}"
+                   BorderBrush="{StaticResource Accent200ColorBrush}"
                    BorderThickness=".5">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -21,7 +21,7 @@
                      <ColumnDefinition Width="20"/>
                 </Grid.ColumnDefinitions>
                 <Border Grid.Column="0"
-                        Background="{StaticResource Accent-200ColorBrush}"
+                        Background="{StaticResource Accent200ColorBrush}"
                         CornerRadius="12 0 0 12"
                        >
                     
